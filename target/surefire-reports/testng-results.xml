@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17889" started-at="2021-04-17T23:46:43 CST" finished-at="2021-04-17T23:47:01 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17889" started-at="2021-04-17T23:46:43 CST" finished-at="2021-04-17T23:47:01 CST">
+      <class name="sushilecommerce.E2ECommerce.SignTest">
+        <test-method status="PASS" signature="signin()[pri:0, instance:sushilecommerce.E2ECommerce.SignTest@527e5409]" name="signin" duration-ms="17843" started-at="2021-04-17T23:46:43 CST" finished-at="2021-04-17T23:47:01 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- sushilecommerce.E2ECommerce.SignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
