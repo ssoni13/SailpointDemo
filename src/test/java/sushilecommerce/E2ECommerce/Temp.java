@@ -6,6 +6,8 @@ public class Temp {
 		// TODO Auto-generated method stub
 
 		System.out.println(System.getProperty("user.dir"));
+		System.out.println("check1");
+		System.out.println("check2");
 	}
 
 }
