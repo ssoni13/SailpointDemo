@@ -20,6 +20,7 @@ public class SignTest extends Base {
 	@Test
 	public void signin() throws IOException, InterruptedException
 	{
+		System.out.println("Test case 1 start");
 		driver = invokeDriver();
 		driver.get(prop.getProperty("url"));
 		LoginPage lp = new LoginPage(driver);
@@ -37,6 +38,6 @@ public class SignTest extends Base {
 		Cart c = new Cart(driver);
 		String title= c.getTitle().getText();
 		Assert.assertEquals(title, "1 Product");
-		
+		System.out.println("Test case 1 End");
 	}
 }
