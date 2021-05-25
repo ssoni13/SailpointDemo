@@ -8,6 +8,11 @@ public class Temp {
 		System.out.println(System.getProperty("user.dir"));
 		System.out.println("check1");
 		System.out.println("check2");
+		
+		System.out.println("branch1");
+		System.out.println("branch2");
+		System.out.println("branch3");
+		System.out.println("branch4");
 	}
 
 }
